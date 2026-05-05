@@ -10,52 +10,17 @@ useHead({
   ],
 })
 
-// ─── Demo Data ───────────────────────────────────────────────────────────────
-// Using picsum.photos as placeholder — different seeds for visual variety
-const photos = [
-  {
-    id: 'dsc_4693',
-    title: 'Portrait Session 1',
-    category: 'Portrait',
-    camera: 'Nikon D7000',
-    lens: '18-105mm f/3.5-5.6G VR',
-    settings: 'f/5.3, 1/100, ISO 140',
-    mood: ['kebersamaan', 'hangat'],
-    before: '/images/photos/Photo/DSC_4693_before.JPG',
-    after:  '/images/photos/Photo/DSC_4693.jpg',
-    initialPosition: 45,
-  },
-  {
-    id: 'dsc_4718',
-    title: 'Portrait Session 2',
-    category: 'Portrait',
-    camera: 'Nikon D7000',
-    lens: '18-105mm f/3.5-5.6G VR',
-    settings: 'f/5.3, 1/100, ISO 140',
-    mood: ['intim'],
-    before: '/images/photos/Photo/DSC_4718_before.JPG',
-    after:  '/images/photos/Photo/DSC_4718.jpg',
-    initialPosition: 50,
-  },
-  {
-    id: 'dsc_4806',
-    title: 'Portrait Session 3',
-    category: 'Portrait',
-    camera: 'Nikon D7000',
-    lens: '18-105mm f/3.5-5.6G VR',
-    settings: 'f/5.3, 1/100, ISO 140',
-    mood: ['hangat'],
-    before: '/images/photos/Photo/DSC_4806_before.JPG',
-    after:  '/images/photos/Photo/DSC_4806.jpg',
-    initialPosition: 55,
-  },
-]
-
 // ─── Gallery Data & Logic ────────────────────────────────────────────────────
 const { data: galleryData } = await useAsyncData(
   'gallery-photos',
   () => queryCollection('photos').all()
 )
+
+const sliderPhotos = computed(() => {
+  if (!galleryData.value) return []
+  return galleryData.value.filter(photo => photo.hasComparison)
+})
+
 
 const activeMoodFilter = ref('semua')
 const moodFilters = [
@@ -129,7 +94,7 @@ onUnmounted(() => {
     <!-- ─── Photo Grid ───────────────────────────────────────────────────────── -->
     <section class="photo-grid" aria-label="Photo comparison gallery">
       <article
-        v-for="photo in photos"
+        v-for="photo in sliderPhotos"
         :key="photo.id"
         class="photo-card"
       >

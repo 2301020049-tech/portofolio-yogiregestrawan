@@ -135,6 +135,7 @@ function closeMobile() { mobileOpen.value = false }
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
   background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
   /* subtle blur for depth without shadow */
@@ -147,6 +148,7 @@ function closeMobile() { mobileOpen.value = false }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 var(--space-6);
