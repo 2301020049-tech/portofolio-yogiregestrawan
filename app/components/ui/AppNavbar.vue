@@ -146,7 +146,7 @@ function closeMobile() { mobileOpen.value = false }
 .navbar__inner {
   display: flex;
   align-items: center;
-  gap: var(--space-6);
+  justify-content: space-between;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 var(--space-6);
