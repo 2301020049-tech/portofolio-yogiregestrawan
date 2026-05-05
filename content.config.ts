@@ -34,6 +34,7 @@ export default defineContentConfig({
         after: z.string(),
         before: z.string(),
         hasComparison: z.boolean().optional(),
+        initialPosition: z.number().optional().default(50),
         camera: z.string(),
         lens: z.string(),
         settings: z.string(),

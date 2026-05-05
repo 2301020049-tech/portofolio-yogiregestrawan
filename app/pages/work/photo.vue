@@ -103,7 +103,7 @@ onUnmounted(() => {
           <BeforeAfterSlider
             :before="photo.before"
             :after="photo.after"
-            :initial-position="photo.initialPosition"
+            :initial-position="photo.initialPosition ?? 50"
             label-before="Before"
             label-after="After"
           />
