@@ -1,0 +1,19 @@
+{
+  "id": "poster",
+  "title": "Lomba Poster Kampus",
+  "client": "Kampus",
+  "brief": "Event poster design for campus competition.",
+  "tools": ["Photoshop", "Illustrator"],
+  "category": "brand-post",
+  "year": 2024,
+  "thumbnail": "/images/photos/Design/lomba poster kampus/cover.png",
+  "images": [
+    "/images/photos/Design/lomba poster kampus/cover.png",
+    "/images/photos/Design/lomba poster kampus/Poster Kartini 1080x1350.png",
+    "/images/photos/Design/lomba poster kampus/Poster Lomba Hari Kartini Fix.png",
+    "/images/photos/Design/lomba poster kampus/Frame 146.png",
+    "/images/photos/Design/lomba poster kampus/Frame 148.png",
+    "/images/photos/Design/lomba poster kampus/Sertif (5).png"
+  ],
+  "tags": ["Poster", "Event"]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sky-race",
+  "title": "Sky Race",
+  "description": "Racing game dengan lebih dari 50 mobil dan 24 lintasan untuk para motorsport enthusiast. Dari balapan realistis hingga tema fantasi — tersedia berbagai mode track dengan leaderboard online.",
+  "features": ["50+ cars", "24 tracks", "Online leaderboard", "Multiplayer racing", "Diverse themes"],
+  "year": 2024,
+  "thumbnail": "",
+  "screenshots": [],
+  "robloxLink": "https://www.roblox.com/games/122818539342526/Sky-Race",
+  "tags": ["Racing", "Multiplayer", "Lua"],
+  "category": "roblox",
+  "status": "published"
+}

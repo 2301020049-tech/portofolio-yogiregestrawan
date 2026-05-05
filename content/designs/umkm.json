@@ -1,0 +1,21 @@
+{
+  "id": "umkm",
+  "title": "UMKM Dariana Silver",
+  "client": "Dariana Silver",
+  "brief": "Branding and social media posts for UMKM Dariana Silver.",
+  "tools": ["Photoshop", "Illustrator"],
+  "category": "brand-post",
+  "year": 2024,
+  "thumbnail": "/images/photos/Design/UMKM dariana silver/cover & logo1.png",
+  "images": [
+    "/images/photos/Design/UMKM dariana silver/cover & logo1.png",
+    "/images/photos/Design/UMKM dariana silver/logo.png",
+    "/images/photos/Design/UMKM dariana silver/brandpost1.png",
+    "/images/photos/Design/UMKM dariana silver/brandpost2.png",
+    "/images/photos/Design/UMKM dariana silver/brandpost3.png",
+    "/images/photos/Design/UMKM dariana silver/brandpost4.png",
+    "/images/photos/Design/UMKM dariana silver/brandpost5.png",
+    "/images/photos/Design/UMKM dariana silver/brandpost6.png"
+  ],
+  "tags": ["Branding", "UMKM", "Logo"]
+}

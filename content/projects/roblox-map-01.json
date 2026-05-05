@@ -1,0 +1,13 @@
+{
+  "id": "alchemy-lab",
+  "title": "Alchemy Lab",
+  "description": "Game casual simulator di mana pemain berperan sebagai pembuat ramuan. Kumpulkan bahan ajaib dari area hutan, racik menjadi potion unik, jual untuk koin, dan upgrade peralatan serta kapasitas.",
+  "features": ["Potion crafting system", "Ingredient gathering", "Upgrade system", "Coin economy", "Forest exploration"],
+  "year": 2024,
+  "thumbnail": "",
+  "screenshots": [],
+  "robloxLink": "https://www.roblox.com/games/71339412404479/Alchemy-Lab",
+  "tags": ["Casual", "Simulator", "Lua"],
+  "category": "roblox",
+  "status": "published"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ant-kingdom-tycoon",
+  "title": "Ant Kingdom Tycoon",
+  "description": "Sandbox tycoon di mana pemain membangun koloni semut vertikal. Rebut telur semut langka dari mesin besar di tengah map, produksi makanan, jual ke seller untuk cash, dan bangun nest setinggi mungkin ke langit.",
+  "features": ["Vertical colony building", "Egg conveyor system", "Food production & selling", "Upgrade system", "Satisfying VFX & animations"],
+  "year": 2024,
+  "thumbnail": "",
+  "screenshots": [],
+  "robloxLink": "https://www.roblox.com/games/112901443168287/Ant-Kingdom-Tycoon",
+  "tags": ["Tycoon", "Sandbox", "Lua"],
+  "category": "roblox",
+  "status": "published",
+  "techStack": ["Rojo", "Knit", "Roact", "Rodux", "RoactSpring"]
+}
